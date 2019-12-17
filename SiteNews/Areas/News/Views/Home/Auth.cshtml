@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "Auth";
+}
+
+@using (Html.BeginForm("Auth", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <h1>Вход в аккаунт</h1>
+    <input type="text" name="login" placeholder="Логин" />
+    <input type="password" name="password" placeholder="Пароль" />
+    <input type="submit" value="Войти" />
+}
+
+@Html.ActionLink("Создать аккаунт", "Registration", "Home", new { area = "News" }, new { @class = "navbar-brand" })
+

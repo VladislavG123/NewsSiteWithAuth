@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\SiteNews",
+    "\\SiteNews\\App_Start",
+    "\\SiteNews\\Areas",
+    "\\SiteNews\\Areas\\AdminPanel",
+    "\\SiteNews\\Areas\\AdminPanel\\Controllers",
+    "\\SiteNews\\Areas\\News",
+    "\\SiteNews\\Areas\\News\\Controllers",
+    "\\SiteNews\\Areas\\News\\Views",
+    "\\SiteNews\\Areas\\News\\Views\\Home",
+    "\\SiteNews\\DataContext"
+  ],
+  "SelectedNode": "\\SiteNews\\Areas\\News\\Views\\Home\\index.cshtml",
+  "PreviewInSolutionExplorer": false
+}

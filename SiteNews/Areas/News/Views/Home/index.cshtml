@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewBag.Title = "index";
+}
+
+<h2>index</h2>
+
+<div>
+    <button id="btn">Обновить</button>
+    <div id="content">
+        @foreach (var news in ViewBag.News)
+        {
+            <div>
+                <h3>
+                    @news.Text
+                </h3>
+                <img src="@news.ImagePath" />
+
+            </div>
+        }
+    </div>
+</div>

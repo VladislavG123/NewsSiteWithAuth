@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewBag.Title = "Auth";
+}
+
+@using (Html.BeginForm("Auth", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <h1>Введите пароль администратора</h1>
+    <input type="password" name="password" />
+    <input type="submit" value="Войти" />
+}
+
